@@ -1,0 +1,6 @@
+{
+  "name": "Triage automated PRs",
+  "description": "Flag + auto-close outside PRs carrying the automated-agent honeypot marker, and nudge PRs to complete the AI-assistance disclosure. Safe pull_request_target (reads metadata only).",
+  "iconName": "shield",
+  "categories": ["Automation"]
+}

@@ -1,0 +1,31 @@
+name: Bug report
+description: Something isn't working as expected
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For **security vulnerabilities**, don't file a public issue — use the repo's [Security advisories](../../security/advisories/new) / `SECURITY.md`.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: A clear description of the bug, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: Environment
+      description: Version/commit, OS, browser, or other relevant detail.
+  - type: textarea
+    id: extra
+    attributes:
+      label: Logs / screenshots
+      description: Redact anything sensitive.

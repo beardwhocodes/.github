@@ -1,0 +1,4 @@
+# Default Sponsor button for beardwhocodes repos (override per-repo as needed).
+# To add GitHub Sponsors, set it up at https://github.com/sponsors and uncomment:
+# github: copyjosh
+custom: ["https://paypal.me/copyjosh"]
